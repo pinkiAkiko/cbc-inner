@@ -11,11 +11,12 @@ const Header = () => {
 
   const navItems = [
     { name: "Home", path: "/" },
-    { name: "About Us", path: "/about" },
-    { name: "Initiatives", path: "/initiatives" },
-    { name: "Reports", path: "/reports" },
-    { name: "Media", path: "/media" },
-    { name: "Connect", path: "/contact" },
+    { name: "About CBC", path: "/about" },
+    { name: "Frameworks", path: "/frameworks" },
+    { name: "Offerings", path: "/offerings" },
+    { name: "Flagship Initiatives", path: "/initiatives" },
+    { name: "Knowledge Repository", path: "/knowledge" },
+    { name: "Collaborations", path: "/collaborations" },
   ];
 
   return (
