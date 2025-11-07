@@ -20,9 +20,9 @@ const InitiativeDetail = () => {
   // Mock data - in real app, this would come from an API
   const initiativeData: Record<string, any> = {
     "ulb-capacity-building": {
-      title: "Rashtriya Karmayogi Large Scale Jan Seva Program",
-      subtitle: "Empowering through Strategic Learning & Development",
-      category: "Mission Karmayogi",
+      title: "Title",
+      subtitle: "Subheading",
+      category: "Tag Line",
       image: ulbInitiative,
       vision:
         "To create a robust ecosystem of empowered and capable Urban Local Bodies that can effectively address the multifaceted challenges of rapid urbanization in India. Our vision is to transform municipal governance by building world-class administrative, technical, and leadership capabilities that enable ULBs to deliver efficient, transparent, and citizen-centric services. We envision cities where local governance is characterized by innovation, sustainability, and inclusiveness—where every municipal official is equipped with the knowledge, skills, and tools to contribute meaningfully to urban development. Through systematic capacity building, we aim to foster a culture of continuous learning and excellence that positions Indian cities as models of effective local governance, ultimately improving the quality of life for millions of urban residents and creating sustainable, resilient, and thriving urban communities.",
@@ -200,7 +200,7 @@ const InitiativeDetail = () => {
               <p className="text-xl md:text-2xl text-primary-foreground/95 mb-6 font-light">
                 {initiative.subtitle}
               </p>
-              <div className="flex flex-wrap gap-4">
+              {/* <div className="flex flex-wrap gap-4">
                 <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg">
                   <Video className="mr-2" size={20} />
                   Watch Video
@@ -213,7 +213,7 @@ const InitiativeDetail = () => {
                   <Download className="mr-2" size={20} />
                   Download Concept Note
                 </Button>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
@@ -292,7 +292,7 @@ const InitiativeDetail = () => {
               <CardHeader>
                 <CardTitle className="text-3xl flex items-center gap-3">
                   <FileText className="text-accent" size={32} />
-                  Concept Note
+                  Conceptual Framework
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
